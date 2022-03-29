@@ -2,7 +2,7 @@
 import cfworker
 import time, os
 
-worker = cfworker.cfworker()
+worker = cfworker.cfworker(port=8080)
 worker.start()
 
 while True:
