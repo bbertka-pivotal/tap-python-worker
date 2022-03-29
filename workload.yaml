@@ -1,10 +1,10 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: simple-worker
+  name: tap-python-worker
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: simple-worker
+    app.kubernetes.io/part-of: tap-python-worker
 spec:
   params:
   - name: annotations
