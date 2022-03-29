@@ -6,7 +6,7 @@ metadata:
   tags:
     - python
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tap-python-worker
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tap-python-worker'
 spec:
   type: service
   lifecycle: experimental
