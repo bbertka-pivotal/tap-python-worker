@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tap-python-worker
+  description: Simple Python App
+  tags:
+    - python
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tap-python-worker
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
